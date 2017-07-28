@@ -1,0 +1,11 @@
+name: DDP_Project
+title: DDP_Project
+account: wajihh
+server: shinyapps.io
+appId: 200262
+bundleId: 919114
+url: https://wajihh.shinyapps.io/DDP_Project/
+when: 1501240047.75095
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DDP_Presentation.html|DDP_Presentation.Rmd|README.html|README.md

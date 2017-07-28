@@ -1,0 +1,30 @@
+---
+title: "Developing Data Products Project"
+author: "Wajih Hashmi"
+date: "28 July 2017"
+output: ioslides_presentation
+---
+## Introduction
+
+-This application has been developed using shiny package it plots Normal and Uniform probablity distributions on a webpage using simple interactive widgets.
+The ui.R and server.R alongwith Instructions Document.md have been uploaded at:  <https://wajihh.shinyapps.io/DDP_Project/> 
+
+-This application is very helpful for anyone interested in understanding normal and uniform probality distrubutions used in analysis of data.The dataset used for calculations from builtin dataset in R Studio.
+
+
+## How The Webpage Works 
+###Side bar widets are used for inputs in the following way:
+- Buttons are used for selection of the Distribution type
+- Slide Bar is used to choose the sample size
+- Boxes are built for Input of required parameters such as Mean,standard deviation,bandwidth,Minimum, Maximum values,shape,rate,etc
+- A check box is used to overlay density curve on histogram displayed in the main panel 
+###Main panel tabs output the results : 
+- Plot:     Displays a histogram of Observations vs Density, a density curve can be overlaid from side bar panel check box
+- Summary:  Shows the summary of statistical parameters
+- Table:    Renders the values of data used
+
+## Web Deployment
+
+
+
+A presentation of the above application is prepared using Rstudio Presenter and can be viewed at:  <http://rpubs.com/wajihh/...>
